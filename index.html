@@ -1,64 +1,104 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>About Me</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Oussama Jamal</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             line-height: 1.6;
+            margin: 0;
+            padding: 0;
         }
         .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
         }
-        .main-info {
+        header {
             background: #333;
             color: #fff;
             padding: 20px;
+            text-align: center;
+            border-radius: 8px 8px 0 0;
         }
-        .main-info h1 {
+        header h1 {
             margin: 0;
+            font-size: 2.5em;
         }
-        .hobbies, .lewis, .course, .job {
-            background: #e7e7e7;
-            padding: 15px;
+        header h2 {
+            margin-top: 5px;
+            font-size: 1.2em;
+            font-weight: 300;
+        }
+        section {
+            margin: 20px 0;
+        }
+        section h2 {
             margin-bottom: 10px;
+            font-size: 1.5em;
+            color: #333;
+        }
+        section p {
+            margin: 10px 0;
+            color: #555;
+        }
+        .info-block {
+            background: #f9f9f9;
+            padding: 15px;
+            border-left: 4px solid #333;
+            border-radius: 5px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <header class="main-info">
-            <h1>[Your First and Last Name]</h1>
-            <h1>Preferred Name: [Your Preferred Name]</h1>
+        <header>
+            <h1>Oussama Jamal</h1>
+            <h2>Preferred Name: Usano</h2>
         </header>
 
-        <section class="lewis">
-			<h2>Year at Lewis: [Your Years at Lewis]</h2>
-			<h2>Lewis major/minor/concentrations: [Your major/minor/concentrations]</h2>
-			<h2>Reasons for pursuing this degree: [Your reasons for pursuing the degree]</h2>
+        <section>
+            <h2>About Me</h2>
+            <div class="info-block">
+                <p>Hello! I'm Oussama Jamal, a passionate individual with a keen interest in digital content creation, technology, and entrepreneurship. My goal is to inspire and connect people through engaging content and innovative ideas.</p>
+            </div>
         </section>
 
-		<section class="course">
-            <h2>Reasons for Taking This Course</h2>
-            <p>[Your reasons for taking this course]</p>
+        <section>
+            <h2>Education</h2>
+            <div class="info-block">
+                <p><strong>University:</strong> American University of Sharjah</p>
+                <p><strong>Major:</strong> Computer Science</p>
+                <p><strong>Minor/Concentration:</strong> Application Design & Backend</p>
+            </div>
         </section>
 
-		<section class="job">
-            <p>Current/Recent Job</p>
-			<p>[Your job responsibilities]</p>
-        </section>		
+        <section>
+            <h2>Current Job</h2>
+            <div class="info-block">
+                <p><strong>Position:</strong> Vice President, Entrepreneurship Club</p>
+                <p><strong>Responsibilities:</strong> Organizing events, mentoring students, and fostering innovation and creativity within the community.</p>
+            </div>
+        </section>
 
-        <section class="hobbies">
+        <section>
             <h2>Hobbies and Special Interests</h2>
-            <p>[Your hobbies or special interests]</p>
+            <div class="info-block">
+                <p>When I'm not working or studying, I enjoy storytelling, podcast hosting, and exploring new trends in fintech and digital content. I also love experimenting with IoT projects and sharing knowledge with others through workshops.</p>
+            </div>
         </section>
 
-        <section class="fun-fact">
+        <section>
             <h2>Fun Fact</h2>
-            <p>[A fun fact about yourself]</p>
+            <div class="info-block">
+                <p>I once collaborated on a sustainability startup idea called "Dayma" that won first place in the Sharjah Sustainability Awards!</p>
+            </div>
         </section>
     </div>
 </body>
